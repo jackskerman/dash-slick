@@ -1,6 +1,6 @@
 {
   "name": "dash_slick",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Slick Dash Components",
   "main": "build/index.js",
   "scripts": {

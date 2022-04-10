@@ -1,6 +1,6 @@
 Package: dashSlick
 Title: React Slick Dash Components
-Version: 0.0.1
+Version: 0.0.2
 Description: React Slick Dash Components
 Depends: R (>= 3.0.2)
 Imports: 

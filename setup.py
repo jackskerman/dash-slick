@@ -6,10 +6,14 @@ from setuptools import setup
 with open('package.json') as f:
     package = json.load(f)
 
+with open('README.md') as f:
+    long_description = f.read()
+
 package_name = package["name"].replace(" ", "_").replace("-", "_")
 
 setup(
     name=package_name,
+    url="https://github.com/jackskerman/dash-slick",
     version=package["version"],
     author=package['author'],
     packages=[package_name],
@@ -19,5 +23,7 @@ setup(
     install_requires=[],
     classifiers = [
         'Framework :: Dash',
-    ],    
+    ],
+    long_description=long_description,
+    long_description_content_type="text/markdown",
 )
