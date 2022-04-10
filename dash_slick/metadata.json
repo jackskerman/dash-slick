@@ -1,36 +1,144 @@
 {
   "src/lib/components/SlickSlider.react.js": {
-    "description": "ExampleComponent is an example component.\r\nIt takes a property, `label`, and\r\ndisplays it.\r\nIt renders an input with the property `value`\r\nwhich is editable by the user.",
+    "description": "",
     "displayName": "SlickSlider",
     "methods": [],
     "props": {
+      "dots": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Dots under carousel"
+      },
+      "arrows": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Arrows to control carousel"
+      },
+      "infinite": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If the carousel content will repeat in a loop"
+      },
+      "autoplay": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If the carousel will start to play automatically"
+      },
+      "speed": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Speed of autoplay"
+      },
+      "slides_to_show": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "How many slides you want to show"
+      },
+      "slide_navigator": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Render a dropdown that navigates between slides"
+      },
+      "labels": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "string"
+          }
+        },
+        "required": false,
+        "description": "Your labels for dropdown if slide_navigator is set to True"
+      },
+      "slides_to_scroll": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "How many slides will scroll when you swipe the carousel"
+      },
+      "center_mode": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "To centralize the carousel"
+      },
+      "center_padding": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Padding on the sides"
+      },
+      "swipe_to_slide": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If you can slide to scroll the slides"
+      },
+      "variable_width": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "The slides width varies according to the screen size"
+      },
+      "responsive": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Settings of breakpoints"
+      },
+      "vertical": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If your carousel is vertical"
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Your carousel is vertical"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline style of the component."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Style class of the component."
+      },
       "id": {
         "type": {
           "name": "string"
         },
         "required": false,
-        "description": "The ID used to identify this component in Dash callbacks."
-      },
-      "label": {
-        "type": {
-          "name": "string"
-        },
-        "required": true,
-        "description": "A label that will be printed when this component is rendered."
-      },
-      "value": {
-        "type": {
-          "name": "string"
-        },
-        "required": false,
-        "description": "The value displayed in the input."
-      },
-      "setProps": {
-        "type": {
-          "name": "func"
-        },
-        "required": false,
-        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+        "description": "Id of the element"
       }
     }
   }
