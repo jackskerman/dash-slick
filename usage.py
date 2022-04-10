@@ -5,7 +5,16 @@ import dash_bootstrap_components as dbc
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-placeholder_text = "Est nostrud non nulla labore aute dolore incididunt enim adipisicing irure est nisi excepteur cillum. Magna duis enim voluptate deserunt ullamco in cillum duis magna. Elit ipsum consequat culpa ullamco incididunt. Esse mollit ex amet labore non laboris minim. Dolore labore mollit labore aliquip ad. Proident quis occaecat aute ad quis veniam aliqua eiusmod laboris Lorem do occaecat. Nisi proident labore magna cillum nostrud adipisicing."
+placeholder_text = """
+            Est nostrud non nulla labore aute dolore incididunt 
+            enim adipisicing irure est nisi excepteur cillum. 
+            Magna duis enim voluptate deserunt ullamco in cillum 
+            duis magna. Elit ipsum consequat culpa ullamco incididunt. 
+            Esse mollit ex amet labore non laboris minim. 
+            Dolore labore mollit labore aliquip ad. Proident quis occaecat 
+            aute ad quis veniam aliqua eiusmod laboris Lorem do occaecat. 
+            Nisi proident labore magna cillum nostrud adipisicing.
+        """
 
 app.layout = html.Div([
     dash_slick.SlickSlider(
