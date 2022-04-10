@@ -1,0 +1,11 @@
+include dash_slick/dash_slick.min.js
+include dash_slick/dash_slick.min.js.map
+include dash_slick/async-*.js
+include dash_slick/async-*.js.map
+include dash_slick/*-shared.js
+include dash_slick/*-shared.js.map
+include dash_slick/metadata.json
+include dash_slick/package-info.json
+include README.md
+include LICENSE
+include package.json
